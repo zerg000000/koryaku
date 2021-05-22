@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Deps: org.commonmark/commonmark:0.17.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/commonmark/commonmark/0.17.1/commonmark-0.17.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

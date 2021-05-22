@@ -1,0 +1,16 @@
+{:paths ["src" "client" "server"]
+ :deps {org.clojure/clojure {:mvn/version "1.10.3"}
+        rum/rum {:mvn/version "0.12.4"}
+        metosin/reitit-core {:mvn/version "0.5.12"}
+        metosin/reitit-ring {:mvn/version "0.5.12"}
+        datascript/datascript {:mvn/version "1.0.7"}
+        lambdaisland/uri {:mvn/version "1.4.54"}
+        org.commonmark/commonmark {:mvn/version "0.17.1"}
+        org.commonmark/commonmark-ext-yaml-front-matter {:mvn/version "0.17.1"}
+        babashka/fs {:mvn/version "0.0.3"}
+        hawk/hawk {:mvn/version "0.2.11"}
+        ring/ring-jetty-adapter {:mvn/version "1.9.1"}}
+
+ :aliases {:dev {:extra-deps {ring/ring-devel {:mvn/version "1.9.1"}}}
+           :serve {:replace-deps {nasus/nasus {:mvn/version "0.1.7"}}
+                   :main-opts ["-m" "http.server" "--index-document-path" "index.html" "--dir" "docs/"]}}}

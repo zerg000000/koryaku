@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Deps: babashka/fs:0.0.3">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/babashka/fs/0.0.3/fs-0.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

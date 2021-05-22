@@ -1,0 +1,36 @@
+html, body { margin: 0; padding: 0; font-family: PingFang HK, Microsoft YaHei, Noto Sans TC, Sans; font-size: 18px; line-height: 28px; font-style: normal; font-weight: 500;}
+body { width: 100%; display: flex; justify-content: center; background-color: #000; color: #fff; }
+a { color: #fff; text-decoration-color: rgba(255,255,255, 0.4); }
+a:visited { color: #fff;  }
+a:hover { text-decoration-color: #fff; }
+.root { width: 100%; max-width: 600px; padding: 0.5rem; }
+
+
+.blog-header { display: flex; flex-direction: column; align-items: center; }
+.blog-header .blog-title { font-size: 3rem; margin-top: 1rem; margin-bottom: 1rem; }
+.blog-header .blog-header_menu { display: flex; padding-left: 0; list-style-type: none; align-items: center; justify-content: center; }
+.blog-header .blog-header_menu-item { list-style: none; font-size: 1.25rem; padding: 1rem; }
+.blog-header .blog-header_menu-item a { color: rgba(255,255,255,0.7); text-decoration: none; }
+.blog-header .blog-header_menu-item a:hover { text-decoration: underline; text-decoration-color: #fff; }
+.blog-header .blog-header_menu-item.current a { color: #fff; text-decoration: underline; text-underline-position: auto; }
+@media screen and (max-width: 900px) {
+  .blog-header .blog-title { font-size: 2rem; }
+  .blog-header .blog-header_menu-item { font-size: 1rem; padding: 0.5rem; }
+}
+
+
+.blog-list { list-style: none; padding-left: 0; margin-top: 0.5rem; margin-bottom: 0rem; }
+.blog-list .blog-list-item { display: flex; justify-content: space-between; align-items: center; }
+ h3.blog-list-year { font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; }
+.blog-list a { text-decoration-style: dotted; text-underline-position: under; line-height: 2rem; }
+.blog-list span { color: rgba(255,255,255, 0.65); font-size: 0.9rem; }
+
+
+.post-header, .post-content {  }
+.post-header span.published-date { font-size: 0.9rem; opacity: 0.85; padding-left: 0.5rem; margin-top: -1rem; }
+.post-header h1, .post-content h1 { font-size: 2rem; line-height: 2.5rem }
+.post-header h2, .post-content h2 { font-size: 1.5rem; line-height: 2rem }
+.post-header h3, .post-content h3 { font-size: 1.25rem; line-height: 1.5rem }
+.post-header p, .post-content p { margin: 2rem 0; }
+.post-header a, .post-content a { text-decoration-style: dotted; text-underline-position: under; line-height: 2rem; }
+.post-content img { width: calc(100% + 1rem); height: auto; margin: 0.5rem -0.5rem; }
